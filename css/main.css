@@ -1,0 +1,18 @@
+html {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  color: #222;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: 'DM Serif Display', serif;
+}
+
+h3 {
+  font-family: 'DM Serif Display', serif;
+}
