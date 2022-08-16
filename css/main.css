@@ -16,8 +16,8 @@ header {
 }
 
 header > img {
-  grid-column: 1 / -1;
-  grid-row: 2 / -1;
+  grid-column: 1/-1;
+  grid-row: 2/-1;
 }
 
 div > img {
@@ -44,7 +44,7 @@ nav ul {
 
 h1 {
   font-family: 'DM Serif Display', serif;
-  grid-row: 2;
+  grid-row: 3;
   grid-column: 1/-1;
   padding-left: 4rem;
 }
@@ -65,7 +65,7 @@ nav a:hover {
   grid-template-areas:
     "heading image"
     "bodycopy image";
-  margin: 4rem;
+  margin: 6rem;
 }
 
 #AboutMe h2 {
@@ -84,8 +84,7 @@ nav a:hover {
 }
 
 #MyWork {
-  margin-left: 4rem;
-  justify: center;
+  text-align: center;
 }
 
 .projects {
@@ -172,6 +171,7 @@ nav a:hover {
 
 h2 {
   color: #F16587;
+  font-weight: 600;
 }
 
 h3 {
@@ -188,9 +188,22 @@ h3 {
 }
 
 #ContactMe {
-  margin: 4rem;
+  text-align: center;
 }
 
 #ContactMe ul {
   list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+hr {
+  margin: 4rem;
+  border: 0;
+  border-top: 1px solid #6d6e71;
+}
+
+footer {
+  text-align: center;
 }
